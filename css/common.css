@@ -26,15 +26,3 @@ button {
 ul {
   list-style: none;
 }
-
-.gallery {
-  display: flex;
-  gap: 32px;
-}
-
-.gallery-img {
-  width: 100%;
-  height: auto;
-  box-shadow: 5px 5px 5px #555555;
-  border-radius: 5px;
-}
