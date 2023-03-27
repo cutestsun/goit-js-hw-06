@@ -18,7 +18,6 @@ function createBoxes(amount) {
     divEl.style.height = `${j}px`;
     divEl.style.backgroundColor = getRandomHexColor();
     divArr.push(divEl);
-    console.log(...divArr);
   }
   refs.container.append(...divArr);
 }
