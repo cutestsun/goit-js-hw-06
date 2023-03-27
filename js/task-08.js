@@ -12,8 +12,8 @@ function onLoginFormSubmit(event) {
   }
 
   console.log({
-    email: `${email.value}`,
-    password: `${password.value}`,
+    email: `${email.value.trim()}`,
+    password: `${password.value.trim()}`,
   });
 
   event.currentTarget.reset();
